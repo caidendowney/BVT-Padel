@@ -1,0 +1,244 @@
+body {
+  margins: 10px;
+  padding:  5px;
+  background-color: #d5e1df;
+}
+
+h2 {
+  font-size: 3em;
+  color: #86af49;
+}
+p {
+  font-size: 22px;
+}
+div {
+   margins: 10px;
+  padding:  5px;
+}
+.slides{
+  width: 100%;
+}
+.block {
+  border-style: solid;
+}
+@media only screen and (min-width: 601px){
+  h1{
+    font-family: monospace, serif;
+    font-size: 5em;
+    font-weight: bold;
+    color: black;
+  }
+  #page2 {
+    font-size: 30px;
+    text-align: center;
+  }
+  .flex-container{
+        display: flex;
+        background-color: #333333;
+        flex-direction: row;
+        background-color: #b5e7a0;
+        justify-content: center;
+        width: 100%;
+  }
+  .event {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+  
+  }
+  #bvt {
+    justify-content: center;
+  } 
+  #padel {
+    justify-content: center;
+  } 
+
+  #member {
+    font-size: 20px;
+    right: 100px;
+    top: 200px;
+    padding: 5px;
+  }
+  #login {
+    font-size: 30px;
+    height: 50px;
+    width:  150px;
+    position: fixed;
+    right: 12px;
+    top: 180px;
+  }
+    #home {
+      font-size: 25px;
+      display: block;
+      margin-left: auto;
+    }
+    .video {
+      text-align: center;
+    }
+    .slideshow {
+          max-width: 1000px;
+          height:  800px;
+          position: static;
+          margin: 10px;
+          padding: 10px;
+          align-content: center;
+    }
+    .slides {
+          display: none;
+          padding: 12px 12px;
+          justify-content: center;
+    } 
+    .numbertext {
+     font-weight: bold;
+    }
+    .footer{
+      text-align: center;
+      background-color: #b5e7a0;
+      padding: 5px;
+    }
+    #add {
+      font-size: 30px;
+      height: 50px;
+      width:  150px;
+    }
+    .title{
+      font-family: monospace, serif;
+      color: #86af49;
+      font-size: 30px;
+    }
+    .date {
+      font-family: monospace, serif;
+      color: black;
+      font-size: 25px;
+    }
+    .desc {
+      font-family: monospace, serif;
+      color: black;
+      font-size: 20px;
+    }
+  .image{
+    width: 150px;
+    height:  150px;
+  }
+  .part{
+    font-family: monospace, serif;
+    color: black;
+    font-size: 20px;
+  }
+  .label2 {
+    border: 1px solid grey;
+      margin: 5px;
+      padding: 10px;
+      cursor: pointer;
+  }
+  .user {
+   font-family: monospace;
+    color: black;
+    font-size: 15px;
+    font-style: bold;
+  }
+  .comment {
+    font-family: serif;
+    color: black;
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width: 600px){
+    .flex-container{
+        display: flex;
+        background-color: #333333;
+        flex-direction: column;
+        background-color: #b5e7a0;
+        justify-content: center;
+        width: 100%;
+        height: 23%;
+  }
+  .header{
+    width: 100%;
+  }
+ .logo {
+      justify-content: center;  
+      text-align: center;
+  } 
+  #bvt {
+    text-align: center;
+  }
+  #padel {
+    text-align: center;
+  }
+  h1{
+    font-family: monospace, serif;
+    font-size: 2em;
+    font-weight: bold;
+    color: black;
+    display: none;
+  }
+  .title{
+      font-family: monospace, serif;
+      color: #86af49;
+      font-size: 30px;
+      justify-content: center;
+    }
+    .date {
+      font-family: monospace, serif;
+      color: black;
+      font-size: 25px;
+      justify-content: center;
+    }
+    .desc {
+      font-family: monospace, serif;
+      color: black;
+      font-size: 20px;
+      justify-content: center;
+    }
+  .image{
+    width: 150px;
+    height:  150px;
+    justify-content: center;
+  }
+  .event{
+    justify-content: center;
+  }
+  .survey{
+    justify-content: center;
+  }
+  .slideshow{
+    display:  none;
+  }
+  #home{
+    display:  none;
+  }
+  .footer{
+      text-align: center;
+      background-color: #b5e7a0;
+      padding: 5px;
+    }
+  .comment {
+    font-family: serif;
+    color: black;
+    font-size: 18px;
+    text-align: center;
+  }
+  .user {
+   font-family: monospace;
+    color: black;
+    font-size: 15px;
+    font-style: bold;
+    text-align: center;
+  }
+  #comment {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #commentSubmit{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  h2 {
+  font-size: 3em;
+  color: #86af49;
+  text-align: center;
+}
+}
